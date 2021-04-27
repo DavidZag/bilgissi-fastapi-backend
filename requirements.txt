@@ -115,4 +115,3 @@ websocket-client==0.58.0
 Werkzeug==0.16.1
 wget==3.2
 wincertstore==0.2
-winkerberos==0.8.0
