@@ -33,6 +33,10 @@ class retrieveMessagesReq(BaseModel):
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"Hello": "FastAPI"}
+
 @app.post('/retrieveConversations')
 async def retrieve_Conversations_By_User(request: retrieveConversationsReq):
     user_id = request.user_id
