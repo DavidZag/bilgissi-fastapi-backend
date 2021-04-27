@@ -104,12 +104,9 @@ starlette==0.13.6
 tabulate==0.8.9
 threadpoolctl==2.1.0
 tika==1.24
-tokenizers==0.9.4
 toml==0.10.2
-torch==1.7.1
 tox==3.23.0
 tqdm==4.60.0
-transformers==4.1.1
 typing-extensions==3.7.4.3
 ujson==4.0.2
 urllib3==1.25.4
